@@ -25,7 +25,6 @@ public class AddatBegginingg {
         list.addAtBeginning(30);
         list.addAtBeginning(20);
         list.addAtBeginning(10);
-        
         list.display();
     }
 }
