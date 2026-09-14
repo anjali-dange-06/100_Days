@@ -64,7 +64,7 @@ public class StringBasics {
 		}
 
 		System.out.println("The reverse of the string is " + rev);
-		// Built in Methods
+		// Built in Methods in stringg
 
 		String anj = "Arpit Bansal";
 
@@ -108,7 +108,7 @@ public class StringBasics {
 			System.out.println(name1);
 		}
 
-		// toCharArray
+		// toCharArray method
 
 		char[] ch = anj.toCharArray();
 
@@ -153,11 +153,9 @@ public class StringBasics {
 		System.out.println(Equals("Java", "Java"));
 		System.out.println(Equals("Java", "java"));
 		System.out.println(Equals("Hello", "Hello"));
-
-		sc.close();
 	}
 
-	public static boolean Equals(String a1, String a2) {
+
 
 		if (a1.length() != a2.length())
 			return false;
